@@ -109,9 +109,9 @@ def do_everything(data_set, download_folder, data_table, moved_folder):
 
 
 # Functions being executed.
-do_everything(data_set='custom', download_folder='/custom/Import/', data_table='legendsandletters_custom', moved_folder='/custom/old/rest of files v2')
-do_everything(data_set='appStart', download_folder='/appStart/Import/', data_table='legendsandletters_appstart', moved_folder='/appStart/old/rest of files v2')
-do_everything(data_set='appRunning', download_folder='/appRunning/Import/', data_table='legendsandletters_apprunning', moved_folder='/appRunning/old/rest of files v2')
+do_everything(data_set='custom', download_folder='/custom/Import/', data_table='custom', moved_folder='/custom/old/rest of files v2')
+do_everything(data_set='appStart', download_folder='/appStart/Import/', data_table='appstart', moved_folder='/appStart/old/rest of files v2')
+do_everything(data_set='appRunning', download_folder='/appRunning/Import/', data_table='apprunning', moved_folder='/appRunning/old/rest of files v2')
 
 print('Completed!')
 
