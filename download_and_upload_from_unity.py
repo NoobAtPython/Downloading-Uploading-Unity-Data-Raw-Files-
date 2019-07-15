@@ -80,7 +80,7 @@ def download_file(data_table, data_set, download_folder):
 def upload_to_postgres(download_folder, data_table):
     directory = os.listdir(destination_directory + download_folder)
     os.chdir(destination_directory + download_folder)
-    conn = psycopg2.connect("host=localhost dbname=Bryan/Test user=postgres password=lolque12")
+    conn = psycopg2.connect("host=localhost dbname=db user=postgres password=secret_password")
     cur = conn.cursor()
 
     for file in directory:
